@@ -1,4 +1,4 @@
-## needed
+## benötigt
 - tools.hana.ondemand.com
    - download Hana-Studio Plugins/Extensions für Hana Studio
    - **wahrscheinlich** HTTP und HTTPS benötigt
@@ -41,7 +41,7 @@
      - 2606:4700::6810:1f22
      - 2606:4700::6810:1d22
 
-## nice to have
+## wäre schön zu haben
 - www.eclipse.org/
    - download eclipse installer
    - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
