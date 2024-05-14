@@ -1,0 +1,49 @@
+## needed
+- tools.hana.ondemand.com
+   - download Hana-Studio Plugins/Extensions für Hana Studio
+   - **wahrscheinlich** HTTP und HTTPS benötigt
+   - hoffentlich funktioniert das mit proxy ...
+   - IPS die ich gefunden habe:
+     - 23.214.101.70
+- download.eclipse.org
+   - download Eclipse Plugins/Extensions für Hana Studio bzw. Eclipse
+   - **wahrscheinlich** HTTP und HTTPS benötigt
+   - hoffentlich funktioniert das mit proxy ...
+   - IPS die ich gefunden habe:
+     - 198.41.30.199
+- registry.npmjs.org
+   - download NPM Module um lokales npm Repo zu aktualisieren;
+   - Nutzung dann mit NodeJS/npm, großteils via Terminal in VSCode (theoretisch aber unabhängig von VSCode)
+   - HTTP und HTTPS benötigt!
+   - IPS die ich gefunden habe:
+     - 104.16.26.34
+     - 104.16.25.34
+     - 104.16.30.34
+     - 104.16.3.35
+     - 104.16.2.35
+     - 104.16.0.35
+     - 104.16.27.34
+     - 104.16.28.34
+     - 104.16.29.34
+     - 104.16.31.34
+     - 104.16.24.34
+     - 104.16.1.35
+     - 2606:4700::6810:223
+     - 2606:4700::6810:123
+     - 2606:4700::6810:1b22
+     - 2606:4700::6810:323
+     - 2606:4700::6810:1922
+     - 2606:4700::6810:1c22
+     - 2606:4700::6810:1e22
+     - 2606:4700::6810:1a22
+     - 2606:4700::6810:1822
+     - 2606:4700::6810:23
+     - 2606:4700::6810:1f22
+     - 2606:4700::6810:1d22
+
+## nice to have
+- www.eclipse.org/* - download eclipse installer - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
+- sap.github.io/SapMachine/* - download sap java  - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
+- me.sap.com/* - download SAP Software; checken sap notes etc pp - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
+- https://www.microsoft.com/de-de/edge/business/download - download MS Edge
+- https://developer.microsoft.com/en-us/microsoft-edge/webview2 - download MS Edge WebView2 runtime
