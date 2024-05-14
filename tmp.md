@@ -42,7 +42,7 @@
      - 2606:4700::6810:1d22
 
 ## wäre schön zu haben
-- www.eclipse.org/
+- eclipseide.org
    - Zweck: download eclipse installer
    - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
 - sap.github.io/SapMachine/
