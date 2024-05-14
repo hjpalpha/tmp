@@ -1,21 +1,21 @@
 ## benötigt
 - tools.hana.ondemand.com
-   - download Hana-Studio Plugins/Extensions für Hana Studio
+   - Zweck: download Hana-Studio Plugins/Extensions für Hana Studio
    - **wahrscheinlich** HTTP und HTTPS benötigt
    - hoffentlich funktioniert das mit proxy ...
-   - IPS die ich gefunden habe:
+   - IPs die ich gefunden habe:
      - 23.214.101.70
 - download.eclipse.org
-   - download Eclipse Plugins/Extensions für Hana Studio bzw. Eclipse
+   - Zweck: download Eclipse Plugins/Extensions für Hana Studio bzw. Eclipse
    - **wahrscheinlich** HTTP und HTTPS benötigt
    - hoffentlich funktioniert das mit proxy ...
-   - IPS die ich gefunden habe:
+   - IPs die ich gefunden habe:
      - 198.41.30.199
 - registry.npmjs.org
-   - download NPM Module um lokales npm Repo zu aktualisieren;
+   - Zweck: download NPM Module via npm und NodeJs um npm Mirror-Repo zu aktualisieren
    - Nutzung dann mit NodeJS/npm, großteils via Terminal in VSCode (theoretisch aber unabhängig von VSCode)
    - HTTP und HTTPS benötigt!
-   - IPS die ich gefunden habe:
+   - IPs die ich gefunden habe:
      - 104.16.26.34
      - 104.16.25.34
      - 104.16.30.34
@@ -43,17 +43,37 @@
 
 ## wäre schön zu haben
 - www.eclipse.org/
-   - download eclipse installer
+   - Zweck: download eclipse installer
    - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
 - sap.github.io/SapMachine/
-   - download SAP Java
+   - Zweck: download SAP Java
    - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
 - me.sap.com/*
-   - download SAP Software/Patches; checken SAP Notes etc pp
+   - Zweck: download SAP Software/Patches; checken SAP Notes etc pp
    - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
 - https://www.microsoft.com/de-de/edge/business/download
-   - download MS Edge installer und GPO templates
+   - Zweck: download MS Edge installer und GPO templates
    - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
 - https://developer.microsoft.com/en-us/microsoft-edge/webview2
-   - download MS Edge WebView2 runtime installer
+   - Zweck: download MS Edge WebView2 runtime installer
+   - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
+ 
+## evtl in der Zukunft - Python
+- pypi.org
+   - wenn die mit ihrem bekloppten Python Change durchkommen ...
+   - bräuchte mMn nochmal gesonderte Freigabe ISB für den Download jedes Packetes (incl dependencies)
+   - Pakete nicht kuratiert ...
+   - braucht INSTALLIERTES Python (nicht portable!)
+   - Zweck: download Python Wheels (incl dependencies) via pip
+   - IPs die ich gefunden habe:
+     - 151.101.192.223
+     - 151.101.64.223
+     - 151.101.128.223
+     - 151.101.0.223
+     - 2a04:4e42:400::223
+     - 2a04:4e42:600::223
+     - 2a04:4e42:200::223
+     - 2a04:4e42::223
+- www.python.org
+   - Zweck: download python installer
    - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
