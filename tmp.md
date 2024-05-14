@@ -64,6 +64,7 @@
    - bräuchte mMn nochmal gesonderte Freigabe ISB für den Download jedes Packetes (incl dependencies)
    - Pakete nicht kuratiert ...
    - braucht INSTALLIERTES Python (nicht portable!)
+   - hoffentlich funktioniert das mit proxy ...
    - Zweck: download Python Wheels (incl dependencies) via pip
    - IPs die ich gefunden habe:
      - 151.101.192.223
