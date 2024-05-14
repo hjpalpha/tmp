@@ -42,8 +42,18 @@
      - 2606:4700::6810:1d22
 
 ## nice to have
-- www.eclipse.org/* - download eclipse installer - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
-- sap.github.io/SapMachine/* - download sap java  - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
-- me.sap.com/* - download SAP Software; checken sap notes etc pp - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
-- https://www.microsoft.com/de-de/edge/business/download - download MS Edge
-- https://developer.microsoft.com/en-us/microsoft-edge/webview2 - download MS Edge WebView2 runtime
+- www.eclipse.org/
+   - download eclipse installer
+   - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
+- sap.github.io/SapMachine/
+   - download SAP Java
+   - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
+- me.sap.com/*
+   - download SAP Software/Patches; checken SAP Notes etc pp
+   - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
+- https://www.microsoft.com/de-de/edge/business/download
+   - download MS Edge installer und GPO templates
+   - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
+- https://developer.microsoft.com/en-us/microsoft-edge/webview2
+   - download MS Edge WebView2 runtime installer
+   - alternativ via vdi/apc herunterladen und dann in Kunden-Entw hochladen
