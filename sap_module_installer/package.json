@@ -1,0 +1,35 @@
+{
+  "name": "sap_module_installer",
+  "version": "1.0.0",
+  "description": "Installs all versions of node modules listed in required_modules.json from the npm registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SAP Fiori Tools",
+    "offline",
+    "isolated"
+  ],
+  "author": {
+    "name": "SAP SE",
+    "url": "https://www.sap.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "child_process": "latest",
+    "dotenv": "^16.0.3",
+    "dotenv-expand": "^10.0.0",
+    "fs": "latest",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "react-native-filenamify": "^4.1.0"
+  }
+}
