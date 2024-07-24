@@ -1,0 +1,14 @@
+# path where to find the storage
+$source = "Z:\99_Apps4Worker\VSCode\Files\Copy\verdaccio\storage"
+$files = Get-ChildItem -Path "$source\*.*" -Recurse -File -Exclude "package.json"
+
+$regexString = $source -replace "\\", "/"
+
+$list = @()
+
+# write the full path to temp file
+ForEach($file in $files){
+    $name = $file.FullName -replace "\\", "/" -replace "$regexString/", ""
+    $name | Out-File "C:\list2.log" -Append
+    $list += $name
+}
